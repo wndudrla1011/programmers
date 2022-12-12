@@ -17,10 +17,10 @@
 
 입출력 예
 
-|babbling|result|
-|---|:---|
-|["aya", "yee", "u", "maa", "wyeoo"]|	1
-|["ayaye", "uuuma", "ye", "yemawoo", "ayaa"]|	3
+| babbling                                    | result |
+|---------------------------------------------|:-------|
+| ["aya", "yee", "u", "maa", "wyeoo"]         | 	1     |
+| ["ayaye", "uuuma", "ye", "yemawoo", "ayaa"] | 	3     |
 
 입출력 예 설명<br>
 입출력 예 #1
