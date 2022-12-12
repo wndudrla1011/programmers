@@ -1,4 +1,4 @@
-package level_0;
+package level0;
 
 public class TheNextNumber {
 

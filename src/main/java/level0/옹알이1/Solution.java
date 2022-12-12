@@ -1,8 +1,6 @@
-package level_0;
+package level0.옹알이1;
 
-import java.util.Arrays;
-
-public class Babbling {
+public class Solution {
 
     public int solution(String[] babbling) {
         int answer = 0;
@@ -33,14 +31,14 @@ public class Babbling {
 
         }
 
-        System.out.println(answer);
         return answer;
     }
 
     public static void main(String[] args) {
-        Babbling babbling = new Babbling();
+        Solution s = new Solution();
         String[] input = {"aya", "yee", "u", "maa", "wyeoo"};
-        babbling.solution(input);
+        int result = s.solution(input);
+        System.out.println(result);
     }
 
 }
