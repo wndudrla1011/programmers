@@ -1,3 +1,4 @@
+https://school.programmers.co.kr/learn/courses/30/lessons/120956 <br>
 **문제 설명**<br>
 
 머쓱이는 태어난 지 6개월 된 조카를 돌보고 있습니다. 조카는 아직 "aya", "ye", <br>

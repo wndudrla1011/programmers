@@ -1,6 +1,6 @@
-package level0;
+package level0.다음에올숫자;
 
-public class TheNextNumber {
+public class Solution {
 
     public int solution(int[] common) {
         int answer = 0;
@@ -13,14 +13,13 @@ public class TheNextNumber {
             answer = common[common.length - 1] * (common[1] / common[0]);
         }
 
-        System.out.println(answer);
-
         return answer;
     }
 
     public static void main(String[] args) {
-        TheNextNumber theNextNumber = new TheNextNumber();
-        theNextNumber.solution(new int[]{5, 20, 80, 320});
+        Solution theNextNumber = new Solution();
+        int result = theNextNumber.solution(new int[]{5, 20, 80, 320});
+        System.out.println(result);
     }
 
 }
