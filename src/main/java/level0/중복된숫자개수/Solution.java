@@ -1,4 +1,4 @@
-package level0.중복된숫자구하기;
+package level0.중복된숫자개수;
 
 import java.util.Arrays;
 
