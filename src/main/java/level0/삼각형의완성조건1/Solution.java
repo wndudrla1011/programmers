@@ -10,7 +10,7 @@ public class Solution {
         int max = sides[sides.length - 1];
         int others = IntStream.rangeClosed(0, sides.length - 2).map(s -> sides[s]).sum();
 
-        if (max < others || others == 0)
+        if (max < others)
             return 1;
         else
             return 2;
