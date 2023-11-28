@@ -1,4 +1,4 @@
-package level2.nx2배열자르기;
+package level2.nxn배열자르기;
 
 import java.util.*;
 
