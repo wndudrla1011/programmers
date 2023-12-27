@@ -4,6 +4,7 @@ import java.util.*;
 
 public class Solution2 {
 
+    //시간 파싱
     public int timeToInt(String time) {
         String[] temp = time.split(":");
         return Integer.parseInt(temp[0]) * 60 + Integer.parseInt(temp[1]);
@@ -12,7 +13,6 @@ public class Solution2 {
     public int[] solution(int[] fees, String[] records) {
         TreeMap<String, Integer> map = new TreeMap<>(); //<차량 번호, 시간>
 
-        //우선순위 큐 <- 파싱
         for (String r : records) {
             String[] info = r.split(" ");
             int time = info[2].equals("IN") ? -1 : 1;
@@ -21,7 +21,7 @@ public class Solution2 {
         }
 
         int idx = 0;
-        int[] ans = new int[map.size()];
+        int[] ans = new int[map.size()]; //차량 종류
 
         for (int time : map.values()) {
             if (time < 1) time += 1439; //출차 기록x
